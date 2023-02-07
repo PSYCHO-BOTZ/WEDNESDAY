@@ -84,7 +84,7 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'rlearn.xyz')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlearn.xyz')
 SHORTLINK_API = environ.get('SHORTLINK_API', '8e88b53e73f15d37c396c6e97e388e86356975c6')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
@@ -96,7 +96,7 @@ MAX_BTN = int(environ.get('MAX_BTN', "7"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/devils_chats")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/everytype_movies")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴄʜᴇᴄᴋ ᴀɴᴅ ᴛʀʏ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇs')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'devils_chats')
