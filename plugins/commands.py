@@ -42,10 +42,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
+            InlineKeyboardButton('ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAINdmL9uWnC3ptj9YnTjFU4YGr5dtzwAAIEAAPBJDExieUdbguzyBAeBA") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEO4Z1j4esV6RI_wiknekQK9lNUBHLsQgACLwkAAgkAAYlWR0Qtzs9OLr0uBA") 
         await asyncio.sleep(1)
         await m.delete()        
         await message.reply_photo(
@@ -64,7 +64,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ", url=invite_link.invite_link
                 )
             ]
         ]
