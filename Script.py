@@ -1,5 +1,6 @@
 class script(object):
     START_TXT = """<b>ʜᴇʟʟᴏ {},
+
 ᴍʏ ɴᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs, jᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴɪᴏʏ</b>"""
     
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
@@ -251,12 +252,12 @@ This module only works for my admins
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
-Elsa
+@Erika_Amano_Robot
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
-Elsa
+@Erika_Amano_Robot
 """
     FILE_MSG = """
 <b>Hai 👋 {} </b>😍
@@ -291,7 +292,6 @@ Elsa
 
 🎭 ɢᴇɴʀᴇs : {genres}
 🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
-
 📆 ʏᴇᴀʀ : {release_date}
 🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
 🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
@@ -299,13 +299,16 @@ Elsa
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CUSTOM_FILE_CAPTION = """<b>📂ɴᴀᴍᴇ : {file_name}
 
-╭─── ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ────╮
-▫️<a href=https://t.me/everytype_movies> ᴇᴠᴇʀʏᴛʏᴘᴇ ᴍᴏᴠɪᴇs </a>
-
-▫️<a href=https://t.me/moviez_community> ᴍᴏᴠɪᴇᴢ ᴄᴏᴍᴍᴜɴɪᴛʏ </a>
-╰─── ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ───╯</b>"""
+〰️〰️〰️〰️〰️〰️〰️〰️
+╭───🔅 ᴜᴘʟᴏᴀᴅ ʙʏ 🔅 ────╮
+├• ▫️<a href=https://t.me/Team_Netflix> ᴛᴇᴀᴍ ɴᴇᴛғʟɪx </a>
+╰───────────────────╯
+〰️〰️〰️〰️〰️〰️〰️〰️〰️
+🍁 ғᴏʀ ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs
+👉🏻 ▫️<a href=https://t.me/moviez_community> ᴍᴏᴠɪᴇᴢ ᴄᴏᴍᴍᴜɴɪᴛʏ </a>
+〰️〰️〰️〰️〰️〰️〰️〰️〰️</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
