@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/cd40753913e53f596579c.jpg" alt="PSYCHO BOTZ">
 </p>
 <h1 align="center">
-  <b>Elsa</b>
+  <b>ERIKA</b>
 </h1>
 
 <p align="center">
