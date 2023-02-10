@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/cd40753913e53f596579c.jpg" alt="PSYCHO BOTZ">
+  <img src="https://telegra.ph/file/5767faba01c3745451753.jpg" alt="PSYCHO BOTZ">
 </p>
 <h1 align="center">
-  <b>ERIKA</b>
+  <b>WEDNESDAY FILTER BOT</b>
 </h1>
 
 <p align="center">
