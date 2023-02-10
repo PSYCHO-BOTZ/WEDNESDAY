@@ -252,12 +252,12 @@ This module only works for my admins
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
-@Erika_Amano_Robot
+@moviesX7_bot
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
-@Erika_Amano_Robot
+@moviesX7_bot
 """
     FILE_MSG = """
 <b>Hai 👋 {} </b>😍
@@ -290,11 +290,11 @@ Name - {}
     IMDB_TEMPLATE_TXT = """
 <b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
+‣ ɢᴇɴʀᴇs : {genres}
+‣ ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+‣ ʏᴇᴀʀ : {release_date}
+‣ ʟᴀɴɢᴜᴀɢᴇ : {languages}
+‣ ᴄᴏᴜɴᴛʀʏ : {countries}
 
 ©{message.chat.title}</b>
 """
