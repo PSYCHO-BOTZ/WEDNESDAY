@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQue
 from pyrogram.handlers import MessageHandler
 from pyshorteners import Shortener
 
-BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092b")
+URLEARN_API = os.environ.get("URLEARN_API", "8e88b53e73f15d37c396c6e97e388e86356975c6")
 CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
 GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
@@ -56,11 +56,11 @@ async def short(link):
     # Bit.ly shorten
     if BITLY_API:
         try:
-            s = Shortener(api_key=BITLY_API)
-            url = s.bitly.short(link)
-            shorten_urls += f"\n**Bit.ly :-** {url}"
+            s = Shortener(api_key=URLEARN_API)
+            url = s.Urlearn.xyz(link)
+            shorten_urls += f"\n**urlearn.xyz :-** {url}"
         except Exception as error:
-            print(f"Bit.ly error :- {error}")
+            print(f"urlearn.xyz error :- {error}")
     
     # Chilp.it shorten
     try:
