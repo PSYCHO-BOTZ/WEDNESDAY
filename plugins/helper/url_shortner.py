@@ -53,8 +53,8 @@ async def inline_short(bot, update):
 async def short(link):
     shorten_urls = "**--Shorted URLs--**\n"
     
-    # Bit.ly shorten
-    if BITLY_API:
+    # Urlearn.xyz shorten
+    if URLEARN_API :
         try:
             s = Shortener(api_key=URLEARN_API)
             url = s.Urlearn.xyz(link)
