@@ -8,7 +8,7 @@ from info import COMMAND_HAND_LER
 from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
-ALIVE = "<b>Not dead but still here.. You have no love for me now.  Good.. You are not the same as you were before..</b>" 
+ALIVE = "<b>Not dead but still here.....</b>" 
 # -- Constants End -- #
 
 
