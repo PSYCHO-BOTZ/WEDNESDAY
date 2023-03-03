@@ -20,7 +20,7 @@ from plugins.helper_functions.last_online_hlpr import last_online
 async def who_is(client, message):
     """ extract user information """
     status_message = await message.reply_text(
-        "Wait Bro Let Me Check 🙂"
+        "Wait Bro Let Me Check....."
     )
     from_user = None
     from_user_id, _ = extract_user(message)
@@ -38,17 +38,17 @@ async def who_is(client, message):
     username = from_user.username or ""
     
     message_out_str = (
-        "<b>᚛› 𝙽𝙰𝙼𝙴 :</b> "
+        "<b>᚛› ғɪʀsᴛ ɴᴀᴍᴇ -</b> "
         f"<a href='tg://user?id={from_user.id}'>{first_name}</a>\n"
-        f"<b>᚛› 𝚂𝚄𝙵𝙵𝙸𝚇 :</b> {last_name}\n"
-        f"<b>᚛› 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 :</b> @{username}\n"
-        f"<b>᚛› 𝚄𝚂𝙴𝚁 𝙸𝙳 :</b> <code>{from_user.id}</code>\n"
-        f"<b>᚛› 𝚄𝚂𝙴𝚁 𝙻𝙸𝙽𝙺 :</b> {from_user.mention}\n" if from_user.username else ""
-        f"<b>᚛› 𝙸𝚂 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 𝙳𝙴𝙻𝙴𝚃𝙴𝙳 :</b> True\n" if from_user.is_deleted else ""
-        f"<b>᚛› 𝙸𝚂 𝚅𝙴𝚁𝙸𝙵𝙸𝙴𝙳 :</b> True" if from_user.is_verified else ""
-        f"<b>᚛› 𝙸𝚂 𝚂𝙲𝙰𝙼 :</b> True" if from_user.is_scam else ""
+        f"<b>᚛› ʟᴀsᴛ ɴᴀᴍᴇ -</b> {last_name}\n"
+        f"<b>᚛› ᴜsᴇʀɴᴀᴍᴇ -</b> @{username}\n"
+        f"<b>᚛› ᴜsᴇʀ ɪᴅ -</b> <code>{from_user.id}</code>\n"
+        f"<b>᚛› ᴜsᴇʀ ʟɪɴᴋ -</b> {from_user.mention}\n" if from_user.username else ""
+        f"<b>᚛› ɪs ᴀᴄᴄᴏᴜɴᴛ ᴅᴇʟᴇᴛᴇᴅ -</b> True\n" if from_user.is_deleted else ""
+        f"<b>᚛› ɪs ᴠᴇʀɪғɪᴇᴅ -</b> True" if from_user.is_verified else ""
+        f"<b>᚛› ɪs sᴄᴀᴍ -</b> True" if from_user.is_scam else ""
         # f"<b>Is Fake:</b> True" if from_user.is_fake else ""
-        f"<b>᚛› 𝙻𝙰𝚂𝚃 𝚂𝙴𝙴𝙽 :</b> <code>{last_online(from_user)}</code>\n\n"
+        f"<b>᚛› ʟᴀsᴛ sᴇᴇɴ -</b> <code>{last_online(from_user)}</code>\n\n"
     )
 
     if message.chat.type in [enums.ChatType.SUPERGROUP, enums.ChatType.CHANNEL]:
