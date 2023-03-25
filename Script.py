@@ -304,7 +304,7 @@ Name - {}
 
     CUSTOM_FILE_CAPTION = """<b>📂ɴᴀᴍᴇ : {file_name}
 
-» @Team_netflix</b>"""
+» @Team_netflix"
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
