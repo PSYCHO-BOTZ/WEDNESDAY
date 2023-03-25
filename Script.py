@@ -304,14 +304,7 @@ Name - {}
 
     CUSTOM_FILE_CAPTION = """<b>📂ɴᴀᴍᴇ : {file_name}
 
-〰️〰️〰️〰️〰️〰️〰️〰️
-╭───🔅 ᴜᴘʟᴏᴀᴅ ʙʏ 🔅 ────╮
-├• ▫️<a href=https://t.me/Team_Netflix> ᴛᴇᴀᴍ ɴᴇᴛғʟɪx </a>
-╰───────────────────╯
-〰️〰️〰️〰️〰️〰️〰️〰️〰️
-🍁 ғᴏʀ ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs
-👉🏻 ▫️<a href=https://t.me/moviez_community> ᴍᴏᴠɪᴇᴢ ᴄᴏᴍᴍᴜɴɪᴛʏ </a>
-〰️〰️〰️〰️〰️〰️〰️〰️〰️</b>"""
+» @Team_netflix</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
